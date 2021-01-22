@@ -1,14 +1,5 @@
 const puppeteer = require('puppeteer');
-const goodMan = [
-  {
-    user: '2017082403',
-    password: 'ljt123'
-  },
-  {
-    user: '2017082426',
-    password: 'hzhu0305'
-  }
-];
+const goodMan = [];
 
 async function auto(person) {
   console.log(person);
